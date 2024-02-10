@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .form {
+    body {
         padding: calc(50/767*100vw);
     }
 

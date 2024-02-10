@@ -11,15 +11,13 @@
     <title>Форма</title>
 </head>
 <body>
-    <form class="form">
-        <header>
-            <h1>
-                Добрый день,
-            </h1>
+    <header></header>
+    <main>
+        <section>
+            <h1>Добрый день,</h1>
             <p class="rate">Пожалуйста оцените работу нашей службы поддержки, <br>
-                сделать это можно по следующей ссылке:</p>
-        </header>
-        <main>
+                            сделать это можно по следующей ссылке:
+            </p>
             <a rel="noopener" target="_blank" href="{like_link}" class="button">
                 <!--[if mso]>
                 <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
@@ -29,7 +27,9 @@
                 <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
                 <![endif]-->
             </a>
-            <hr>
+        </section>
+        <hr>
+        <section>
             <ul>
                 <li>Напоминаем о Вашей заявке:</li>
                 <li>Название: [#{unique_id}] {ticket_name}</li>
@@ -38,7 +38,8 @@
                 <li>{answer_first}</li>
                 <li>Для просмотра заявки используйте ссылку: {link_user}</li>
             </ul>
-        </main>
-    </form>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
