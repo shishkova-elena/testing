@@ -2,6 +2,11 @@
     .form {
         padding: calc(50/767*100vw);
     }
+
+    .rate {
+        font-size: calc(18/767*100vw);
+        font-weight: bold;
+    }
     
     a {
         margin-top: calc(20/767*100vw);
