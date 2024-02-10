@@ -1,0 +1,24 @@
+@media screen and (min-width: 1440px) {
+    .form {
+        padding: calc(50/1440*100vw);
+    }
+    
+    a {
+        margin-top: calc(20/1440*100vw);
+        margin-bottom: calc(30/1440*100vw);
+    }
+    
+    .button {
+        font-size: calc(18/1440*100vw);
+        padding: calc(14/1440*100vw) calc(20/1440*100vw);
+        border-radius: calc(5/1440*100vw); 
+    }
+    
+    main {
+        font-size: calc(18/1440*100vw);
+    }
+    
+    li {
+        margin: calc(15/1440*100vw);
+    }
+}

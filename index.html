@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="style-320-768.css" type="text/css">
+    <link rel="stylesheet" href="style-768-1440.css" type="text/css">
+    <link rel="stylesheet" href="style-1440.css" type="text/css">
+    <title>Форма</title>
+</head>
+<body>
+    <form class="form">
+        <header>
+            <h1>
+                Добрый день,
+            </h1>
+            <h3>Пожалуйста оцените работу нашей службы поддержки, <br>
+                сделать это можно по следующей ссылке:</h3>
+        </header>
+        <main>
+            <a rel="noopener" target="_blank" href="{like_link}" class="button">
+                <!--[if mso]>
+                <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
+                <![endif]-->
+                <span style="mso-text-raise: 15pt;">Оставить оценку оператору</span>
+                <!--[if mso]>
+                <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
+                <![endif]-->
+            </a>
+            <hr>
+            <ul>
+                <li>Напоминаем о Вашей заявке:</li>
+                <li>Название: [#{unique_id}] {ticket_name}</li>
+                <li>Исполнитель: {owner_name}</li>
+                <li>Содержание:</li>
+                <li>{answer_first}</li>
+                <li>Для просмотра заявки используйте ссылку: {link_user}</li>
+            </ul>
+        </main>
+    </form>
+</body>
+</html>
