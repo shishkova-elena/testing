@@ -18,6 +18,10 @@
         padding: calc(14/1440*100vw) calc(20/1440*100vw);
         border-radius: calc(5/1440*100vw); 
     }
+
+    hr {
+        margin-bottom: calc(50/1440*100vw);
+    }
     
     main {
         font-size: calc(18/1440*100vw);
